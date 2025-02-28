@@ -109,7 +109,7 @@ Next, we'll need to obtain an API key, so that we can use our credit for request
 **Important**: While you can always delete the key and create a new one, after creating it is the _only time you can see it_, so do not close this window until after you saved the key somewhere!
 
 In order to access the key later without directly exposing it in the code (which is bad for all kinds of reasons, mostly security), we will set up a .env file in our working directory. In the directory you wish to work in, create a new file called ".env". Open this with an editor of your choice (any standard texteditor will do), and add the following line:
-`OPEN_API_KEY=`
+`OPENAI_API_KEY=`
 and paste your API key directly after the `=`.
 Then save the file and close it.
 
